@@ -15,7 +15,8 @@
  * Sample Output:
  * [2, 1, 0]
  */
-const matchingStrings = (strings, queries) => {
+
+const getQueryStringsFrequency = (strings, queries) => {
 	let stringsFrequencyMap = {};
 	strings.forEach((str) => {
 		stringsFrequencyMap[str] = (stringsFrequencyMap[str] || 0) + 1;
