@@ -9,7 +9,7 @@
  * Sample Output: 19:05:45
  */
 
-const timeConversion = (time) => {
+const convertTime = (time) => {
 	let [hour, minute, secondsAndPeriod] = time.split(":");
 	hour = parseInt(hour, 10);
 
