@@ -16,3 +16,9 @@ const getLonelyInteger = (integerArr) => {
 	}
 	return result;
 };
+
+/**
+ * Runner Code
+ */
+const res = getLonelyInteger([1, 2, 3, 4, 5, 4, 3, 2, 1]);
+console.log("Result: ", res);

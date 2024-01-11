@@ -11,9 +11,15 @@
  */
 
 const getCountingSort = (arr) => {
-	let result = Array(100).fill(0);
+	let result = Array(Math.min(arr.length, 100)).fill(0);
 	for (let i = 0; i < arr.length; i++) {
 		result[arr[i]] += 1;
 	}
 	return result;
 };
+
+/**
+ * Runner Code
+ */
+const res = getCountingSort([1, 3, 0, 2, 1]);
+console.log("Result: ", res);

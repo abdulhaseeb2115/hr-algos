@@ -29,3 +29,9 @@ const convertTime = (time) => {
 		second
 	)}`;
 };
+
+/**
+ * Runner Code
+ */
+const res = convertTime("07:05:45PM");
+console.log("Result: ", res);

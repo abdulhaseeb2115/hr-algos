@@ -27,8 +27,10 @@ const checkPangrams = (s) => {
 	return uniqueChars.size === 26 ? "pangram" : "not pangram";
 };
 
-// test
-const ans = checkPangrams(
+/**
+ * Runner Code
+ */
+const res = checkPangrams(
 	"We promptly judged antique ivory buckles for the next prize"
 );
-console.log(ans);
+console.log("Result: ", res);

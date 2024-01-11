@@ -23,3 +23,12 @@ const getQueryStringsFrequency = (strings, queries) => {
 	});
 	return queries.map((query) => stringsFrequencyMap[query] || 0);
 };
+
+/**
+ * Runner Code
+ */
+const res = getQueryStringsFrequency(
+	["aba", "baba", "aba", "xzxb"],
+	["aba", "xzxb", "ab"]
+);
+console.log("Result: ", res);
