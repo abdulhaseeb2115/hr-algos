@@ -1,6 +1,6 @@
-# Practice Algorithms
+# Algorithm Practice
 
-Welcome to the "Practise Algorithms" repository! This collection includes various problems along with their solutions. The goal is to provide a space for practicing coding challenges to enhance problem-solving skills.
+Welcome to the "Algorithms Practise" repository! This collection includes various problems along with their solutions. The goal is to provide a space for practicing coding challenges to enhance problem-solving skills.
 
 ## Structure
 
